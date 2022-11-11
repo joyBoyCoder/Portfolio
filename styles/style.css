@@ -1,0 +1,301 @@
+html {
+    scroll-behavior: smooth !important;
+}
+body {
+    margin: 0px;
+}
+.row {
+    display: table !important;
+    width: 100%;
+}
+.text-center {
+    text-align: center ;
+}
+.primarycolor {
+    color : var(--primarycolor) !important ;
+}
+.lh0 {
+    line-height: 0px !important;
+}
+.lh1 {
+    line-height: 1px !important;
+}
+.pt-2 {
+padding-top: 4px ;
+}
+.mt-2 {
+    margin-top: 4px ;
+    }
+.f90px{
+    font-size: 90px !important;
+}
+.f28px{
+    font-size: 28px !important;
+}
+.f24px {
+    font-size: 24px;
+  }
+  .f20px {
+    font-size: 20px;
+  }
+  .f18px {
+    font-size: 20px;
+  }
+.f40px {
+    font-size: 40px;
+  }
+.fw400 {
+    font-weight: 400 !important;
+}
+.fw200 {
+    font-weight: lighter !important;
+}
+.white {
+    color : white !important ;
+}
+.text-color {
+    color : var(--textcolor) !important ;
+}
+.float-left {
+float: left !important;
+}
+.float-right {
+    float: right !important;
+    }
+h1 , h2 , h3 , h4 ,h5 , h6 {
+    font-family: var(--primaryfont) , sans-serif ;
+    font-weight: 400 ;
+}
+h3 {
+    font-size: 32px;
+font-weight: 400;
+}
+h4 {
+    font-size: 28px;
+font-weight: 400;
+}
+p {
+    font-family: var(--secondaryfont) , sans-serif ;
+    font-size: 16px;
+    color : var(--textcolor) ;
+}
+.image-fluid {
+    max-width: 100%;
+height: auto;
+}
+.width30 {
+    width : 30% !important ;
+    height: auto;
+}
+.width60 {
+    width : 60% !important ;
+    height: auto;
+}
+body {
+    /* background-color : var(--primarycolor);  */
+   /* background-image: linear-gradient(180deg,var(--primarycolor) 0,var(--primarycoloropacity)); */
+   background-image: linear-gradient(180deg,var(--primarycolor) 0,var(--seccolor));
+}
+header {
+    background-image: url(../images/me.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* //background-position: center; */
+    background-position: center;
+}
+.opacityframe {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background-color: var(--primarycoloropacity);
+    box-shadow: inset 0 -40px 60px 10px #40abaa;
+}
+header h1 {
+    line-height: 0.4 ;
+}
+section {
+    width: 80% ;
+    background-color: white;
+    padding : 100px 80px ;
+    padding-top : 40px !important;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    height: auto;
+    animation: fadeIn 2s;
+} 
+@keyframes fadeIn {
+    0% { opacity: 0; margin-top: 0px; }
+    100% { opacity: 1; margin-top: 40px; }
+  }
+/* footer style start here  */
+footer {
+    padding-top: 12px ;
+    padding-bottom: 44px ;
+}
+footer p {
+    font-size: 24px ;
+}
+/* footer style end here  */
+/* section1 style start here  */
+.sectiononeimg {
+    width : 30% !important ;
+}
+.section1p {
+    margin-left: 34%;
+    width: 66%;
+}
+.section1p p {
+    font-size: 25px !important;
+    line-height: 1.5;
+}
+/* section1 style end here  */
+/* section2 style start here  */
+.section2 .width30 {
+    margin: 2%;
+}
+.section2 .width30:first-child {
+    margin: 2%;
+    margin-left:0% !important ;
+}
+.section2 img {
+border-radius: 4px ;
+}
+/* section2 style end here  */
+/* section4 style start here  */
+.section4 .width30 {
+    margin: 2%;
+}
+.section4 .width30:first-child {
+  margin: 2%;
+    margin-left: 2%;
+  margin-left: 0% !important;
+}
+/* section4 style end here  */
+/* section5 style start here  */
+.section5 .width30 {
+    margin: 2%;
+}
+.section5 .width30:first-child {
+  margin: 2%;
+    margin-left: 2%;
+  margin-left: 0% !important;
+}
+/* section5 style end here  */
+/* section6 style start here  */
+.section6 .width30 {
+    margin: 2%;
+}
+.section6 .width30:first-child {
+  margin: 2%;
+    margin-left: 2%;
+  margin-left: 0% !important;
+}
+.icoborder {
+border-radius: 50%;
+border: 1px solid black ;
+padding: 10px 11px;
+margin-left: 8px;
+margin-right: 8px;
+margin-top: 4px ;
+transition : 0.6s ;
+}
+.icoborder i {
+    color :  black ;
+    font-size: 18px ;
+    transition : 0.6s ;
+    }
+    .socialicon:hover .icoborder {
+        border: 1px solid var(--primarycolor) ;
+        transition : 0.6s ;
+        color : var(--primarycolor);
+    }
+    .socialicon:hover .icoborder i {
+        transition : 0.6s ;
+        color : var(--primarycolor);
+    }
+    .socialicon:hover .icop  {
+        transition : 0.6s ;
+        color : var(--primarycolor);
+    }
+/* section6 style end here  */
+/* section7 style start here  */
+input:not(:last-child) , textarea:not(:last-child) {
+    background-color: #eeeeee ;
+    width : 96% ;
+    border : none !important ;
+    border-radius: 4px ;
+    font-family: var(--secondaryfont);
+    margin-top : 10px ;
+    margin-bottom : 10px ;
+    padding: 24px;
+    color: var(--textcolor);
+}
+input , textarea:focus {
+   outline: none !important;
+}
+.btn {
+    background-color: black;
+    color: white;
+    font-family: var(--primaryfont);
+    font-size: 20px;
+    border: none !important;
+    border-radius: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 17px 44px;
+transition: all 0.6s ;    
+  }
+  .btn:hover {
+    background-color: var(--seccolor);
+    transition: all 0.6s ;
+    cursor: pointer;    
+  }
+/* section7 style end here  */
+/* Start of responsivity code */
+@media only screen and (max-width: 588px ) {
+    header h1 {
+        line-height: 1 !important;
+      }
+      .sectiononeimg {
+        width: 92% !important;
+        float: none !important;
+      }
+      .section1p {
+        margin-left: 0px !important;
+        width: 86%;
+      }
+      section {
+        padding: 84px 48px !important;
+      }
+      .lh1 {
+        line-height: 1 !important;
+      }
+      .width30 {
+        width: 96% !important;
+      }
+      .section6 .width30 {
+        margin: 0px !important
+      }
+      .section5 .width30 {
+        margin: 0px !important
+      }
+      .section4 .width30 {
+        margin: 0px !important
+      }
+      .section3 .width30 {
+        margin: 0px !important
+      }
+      .section2 .width30 {
+        margin: 0px !important
+      }
+      .section1 .width30 {
+        margin: 0px !important
+      }
+  } 
+  @media only screen and (max-width: 866px ) {
+      .lh1 {
+        line-height: 1 !important;
+      }
+  }
+/* end of responsivity code */

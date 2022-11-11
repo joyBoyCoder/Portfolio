@@ -1,0 +1,16 @@
+:root {
+    --primarycolor: #3aa5a4;
+    --primarycoloropacity: #3aa5a4A8;
+    --seccolor: #7ae5e4;
+    --seccoloropacity: #2c2e3bc9;
+    --h2color : #170c6b ;
+    --textcolor: #555;
+    --darkcolor: #0e0e23;
+    --white: white;
+    --black: #1d212f;
+    --adminsidebar: rgba(255, 255, 255, 0.4);
+    --formtextcolor : #a8afc7 ;
+    --navbariconscolor : #4a4d51 ;
+    --bgbodycolor: #eaedf7 ;
+    --pfont: 16px;    
+  }
